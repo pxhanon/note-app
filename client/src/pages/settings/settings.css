@@ -1,0 +1,135 @@
+.settings {
+    background-color: #E8E8E8;
+    height: 100vh;
+    width: 100vw;
+}
+
+.settingsWrapper {
+    flex: 9;
+    padding: 20px;
+    margin-left: 250px;
+    
+}
+
+.settingsTitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.settingsTitleUpdate {
+    font-size: 30px;
+    color: #383838;
+    font-weight: 500;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    margin-left: 41%;
+}
+
+.settingsTitleDelete {
+    color: red;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-right: 100px;
+}
+
+.settingsForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.settingsPP {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.settingsPP>img {
+    height: 70px;
+    width: 70px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.settingsPPIcon {
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+    margin-left: 10px;
+    color: black;
+    background-color: #FFDA77;
+    cursor: pointer;
+}
+
+.settingsPPButton:focus {
+    outline-style: none;
+}
+
+.settingsForm>label {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.inputSettings {
+    text-align: center;
+    width: 30%;
+    height: 35px;
+    display: block;
+    margin-top: 20px;
+    padding: var(--inputPaddingV) var(--inputPaddingH);
+    color: inherit;
+    font-family: inherit;
+    font-size: var(--inputFontSize);
+    font-weight: inherit;
+    line-height: var(--inputLineHeight);
+    border: none;
+    border-radius: 0.4rem;
+    transition: box-shadow var(--transitionDuration);
+}
+
+.inputSettings::placeholder {
+    color: #9BA4B4;
+    text-align: center;
+}
+
+.inputSettings:focus {
+    outline: none;
+    box-shadow: 0.2rem 0.8rem 1.6rem var(--colorPrimary600);
+}
+
+.settingsSubmitButton {
+    margin-top: 30px;
+    position: relative;
+    outline: none;
+    text-decoration: none;
+    border-radius: 0.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    height: 35px;
+    width: 100px;
+    opacity: 1;
+    background-color: #ffffff;
+    border: 0.5px solid #383838;
+    color: #383838;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+}
+
+.settingsSubmitButton:hover {
+    background-color: #FFDA77;
+    font-weight: 600;
+    transform: scale(0.9);
+}

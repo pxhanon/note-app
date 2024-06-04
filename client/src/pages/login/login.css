@@ -1,0 +1,126 @@
+.login {
+    display: flex;
+    background-color: #383838;
+    height: calc(100vh - 70px);
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginWrapper {
+    width: 70%;
+    height: 70%;
+    display: flex;
+}
+
+.loginLeft {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.loginLogo {
+    font-size: 50px;
+    font-weight: 600;
+    color: #FFDA77;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+}
+
+.loginDesc {
+    font-size: 24px;
+    color: #E8E8E8;
+}
+
+.loginRight {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+.loginBox {
+    height: 300px;
+    padding: 20px;
+    background-color: #E8E8E8;
+    border-radius: 10px;
+    display: flex;flex-direction: column;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.loginInput {
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.passwordInput {
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.passwordInput:focus {
+    outline-color: #383838;
+}
+
+.loginInput:focus {
+    outline-color: #383838;
+}
+
+.loginButton {
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #383838;
+    color: #E8E8E8;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.loginButton:disabled {
+    cursor: not-allowed;
+    background-color: #888888;
+}
+
+
+.loginButton:hover {
+    transform: scale(0.9);
+}
+
+.loginForgot {
+    text-align: center;
+    text-decoration: underline;
+    color: #383838;
+    cursor: pointer;
+}
+
+.loginForgot:hover {
+    font-weight: 600;
+}
+
+.loginRegisterButton {
+    width: 60%;
+    align-self: center;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #FFDA77;
+    color: #383838;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.loginRegisterButton:hover {
+    transform: scale(0.9);
+}

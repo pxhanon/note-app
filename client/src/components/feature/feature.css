@@ -1,0 +1,40 @@
+.feature {
+    padding-top: 70px;
+    padding-left: 40px;
+    background-color: #383838;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.leftFeature {
+    flex: 0.3;
+    font-size: 25px;
+}
+
+.ulFeature{
+    margin-left: 30px;
+}
+
+.rightFeature{
+    flex: 0.7;
+    overflow: hidden;
+}
+
+.imgContainerFeature {
+    width: 930px;
+    height: 930px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    background-color: #E8E8E8;
+    border-radius: 50%;
+}
+
+.imgFeature {
+    margin-bottom: 150px;
+    width: 100%;
+    border-radius: 0.4rem;
+}

@@ -1,0 +1,19 @@
+.manual {
+    width: 100vw;
+    height: 100vh;
+    background-color: #E8E8E8;
+    overflow: hidden;
+}
+
+.manualTopic {
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 80px;
+    margin-left: 785px;
+    margin-bottom: 30px;
+}
+
+.itemTrans:hover {
+    transform: scale(0.98);
+}
+

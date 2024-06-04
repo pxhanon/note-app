@@ -1,0 +1,13 @@
+.calendar {
+    width: 100vw;
+    height: 100vh;
+    background-color: #E8E8E8;
+}
+
+.calendarTopic {
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 80px;
+    margin-left: 785px;
+    margin-bottom: 30px;
+}

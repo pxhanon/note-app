@@ -1,0 +1,117 @@
+.register {
+    display: flex;
+    background-color: #383838;
+    height: calc(100vh - 70px);
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.regWrapper {
+    width: 70%;
+    height: 70%;
+    display: flex;
+}
+
+.regLeft {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.regLogo {
+    font-size: 50px;
+    font-weight: 600;
+    color: #FFDA77;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+.regDesc {
+    font-size: 24px;
+    color: #E8E8E8;
+}
+
+.regRight {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+.regBox {
+    height: 400px;
+    padding: 20px;
+    background-color: #E8E8E8;
+    border-radius: 10px;
+    display: flex;flex-direction: column;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;    
+}
+
+.regInput {
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #9BA4B4;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.regInput:focus {
+    outline-color: #383838;
+}
+
+.regButton {
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #383838;
+    color: #E8E8E8;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;   
+}
+
+.regButton:hover {
+    transform: scale(0.9);
+}
+
+/* .regForgot {
+    text-align: center;
+    text-decoration: underline;
+    color: #383838;
+    cursor: pointer;
+
+}
+
+.regForgot:hover {
+    font-weight: 600;
+} */
+
+.loginRegisterButton {
+    width: 60%;
+    align-self: center;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #FFDA77;
+    color: #383838;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.loginRegisterButton:hover {
+    transform: scale(0.9);
+}
+
+.spanRegister {
+    margin-left: 145px;
+    margin-top: 20px;
+    color: #CB3737;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}

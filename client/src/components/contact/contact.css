@@ -1,0 +1,245 @@
+.contact {
+    padding-top: 70px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #383838;
+    display: flex;
+    height: calc(100vh - 70px);
+    width: 100vw;
+    overflow: hidden;
+}
+
+.h1Contact {
+    display: flex;
+    position: absolute;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 650px;
+}
+
+.h3Contact {
+    color: #707070;
+    display: flex;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 560px;
+    margin-right: 1200px;
+    letter-spacing: 2px;
+}
+
+.copyrightText {
+    color: #707070;
+    display: flex;
+    position: absolute;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 610px;
+    margin-right: 1200px;
+    letter-spacing: 2px;
+}
+
+.enjoy {
+    color: #707070;
+    display: flex;
+    position: absolute;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 610px;
+    margin-left: 1180px;
+    letter-spacing: 2px;
+}
+
+.adb {
+    color: #707070;
+    display: flex;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 560px;
+    margin-right: 1290px;
+}
+
+.copyright {
+    color: #707070;
+    display: flex;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 610px;
+    margin-right: 1348px;
+}
+
+.mailOutline {
+    color: #707070;
+    display: flex;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 560px;
+    margin-left: 1100px;
+}
+
+.facebook {
+    color: #707070;
+    display: flex;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 560px;
+    margin-left: 1160px;
+}
+
+.instagram {
+    color: #707070;
+    display: flex;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 560px;
+    margin-left: 1220px;
+}
+
+.twitter {
+    color: #707070;
+    display: flex;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 560px;
+    margin-left: 1280px;
+}
+
+
+.sliderContact {
+    height: 500px;
+    display: flex;
+    position: absolute;
+    left: 0;
+    transition: all 1s ease-out;
+}
+
+.containerContact {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+}
+
+.itemContact {
+    width: 1000px;
+    height: 100%;
+    background-color: white;
+    border-radius: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.leftContact {
+    flex: 6;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgContact1 {
+    width: 450px;
+    height: 450px;
+}
+
+.rightContact {
+    flex: 6;
+    height: 90%;
+    background-color: #FFDA77;
+    border-radius: 0.9rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-right: 25px;
+}
+
+.rightContainerContact {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.imgContainerContact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.imgContact2 {
+    width: 350px;
+    height: 350px;
+}
+
+.formContact {
+    display: flex;
+}
+
+.buttonContact {
+    margin-left: 40px;
+    position: relative;
+    outline: none;
+    text-decoration: none;
+    border-radius: 0.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    height: 35px;
+    width: 100px;
+    opacity: 1;
+    background-color: #ffffff;
+    border: 0.5px solid #383838;
+    margin-top: 30px;
+    margin-left: 190px;
+    color: #383838;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.7px;
+}
+
+.buttonContact:hover {
+    background-color: #383838;
+    color: #E8E8E8;
+    font-weight: 600;
+    transform: scale(0.9);
+}
+
+.arrow {
+    position: absolute;
+    width: 3vmin;
+    height: 3vmin;
+    background: transparent;
+    border-top: 0.7vmin solid #383838;
+    border-right: 0.7vmin solid #383838;
+    box-shadow: 0 0 0 #383838;
+    transition: all 400ms ease;
+    cursor: pointer;
+}
+
+.arrow.left {
+    margin-right: 1100px;
+    transform: rotate(-135deg);
+}
+
+.arrow.right {
+    margin-left: 1180px;
+    transform: rotate(45deg);
+}
+
+.arrow:hover {
+    border-color: #383838;
+    box-shadow: 0.8vmin -0.8vmin 0 #FFDA77;
+}
+

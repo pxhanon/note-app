@@ -1,0 +1,24 @@
+.horoscope {
+    width: 100vw;
+    height: 100vh;
+    background-color: #E8E8E8;
+    overflow: hidden;
+}
+
+.horoscopeTopic {
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 80px;
+    margin-left: 785px;
+    margin-bottom: 30px;
+}
+
+.divHoro {
+    margin-left: 400px;
+    margin-right: 170px;
+}
+
+.formHoro {
+    margin-top: 100px;
+    margin-left: 250px;
+}
